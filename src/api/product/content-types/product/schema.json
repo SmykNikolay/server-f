@@ -1,0 +1,80 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "chestCircumference": {
+      "type": "boolean"
+    },
+    "waistCircumference": {
+      "type": "boolean"
+    },
+    "hipCircumference": {
+      "type": "boolean"
+    },
+    "neckCircumference": {
+      "type": "boolean"
+    },
+    "armholeCircumference": {
+      "type": "boolean"
+    },
+    "frontLength": {
+      "type": "boolean"
+    },
+    "backLength": {
+      "type": "boolean"
+    },
+    "skirtLength": {
+      "type": "boolean"
+    },
+    "slitLength": {
+      "type": "boolean"
+    },
+    "thighHeight": {
+      "type": "boolean"
+    },
+    "sleeveLength": {
+      "type": "boolean"
+    },
+    "armCircumference": {
+      "type": "boolean"
+    },
+    "wristCircumference": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "boolean"
+    },
+    "composition": {
+      "type": "boolean"
+    },
+    "material": {
+      "type": "boolean"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
